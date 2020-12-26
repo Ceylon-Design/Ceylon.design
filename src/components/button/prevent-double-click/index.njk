@@ -1,0 +1,10 @@
+---
+title: Button with prevent double click
+layout: layout-example.njk
+---
+{% from "govuk/components/button/macro.njk" import govukButton %}
+
+{{ govukButton({
+  text: "Confirm and send",
+  preventDoubleClick: true
+}) }}

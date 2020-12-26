@@ -1,0 +1,10 @@
+---
+title: Disabled button
+layout: layout-example.njk
+---
+{% from "govuk/components/button/macro.njk" import govukButton %}
+
+{{ govukButton({
+  text: "Disabled button",
+  disabled: true
+}) }}
