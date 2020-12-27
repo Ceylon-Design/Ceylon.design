@@ -55,27 +55,9 @@ npm run lint
 
 [sass-lint]: https://github.com/juanfran/gulp-scss-lint
 
-## GOV.UK Frontend packages
+## Ceylon.design Frontend packages
 
-Design System consumes the [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) package via [NPM](https://www.npmjs.com/).
+Design System consumes the [Ceylon.Design Frontend](https://github.com/Ceylon-Design/CeylonD-Frontend) package via [NPM](https://www.npmjs.com/).
 This is defined in the [package.json](package.json) file.
 
---------------------
 
-## Continuous integration
-
-When changes are pushed to GitHub [Travis][travis] will:
-
-- run the tests
-- lint the Sass stylesheets in `source/stylesheets`
-- run the `npm run build` command to ensure that the site can be generated
-
-If any of these fail, this will be reported in the GitHub status checks
-interface.
-
-[travis]: https://travis-ci.org/alphagov/govuk-design-system
-
-## Deployment
-
-- [How the Design System is deployed to production](docs/deployment/production.md)
-- [How branch and PR previews are deployed](docs/deployment/previews.md)
