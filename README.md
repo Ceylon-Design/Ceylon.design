@@ -13,11 +13,10 @@ Note: You will need the [active LTS (Long-term support)](https://github.com/node
 If you're an external contributor make sure to [fork this project first](https://help.github.com/articles/fork-a-repo/)
 
 ### Clone repository
-```
-git clone git@github.com:alphagov/govuk-design-system.git # or clone your own fork
 
-cd govuk-design-system
-```
+git clone git@github.com:Ceylon-Design/Ceylon.design.git # or clone your own fork
+
+cd Ceylon-Design-Ceylon.design
 
 ### Using nvm (optional)
 If you work across multiple Node.js projects there's a good chance they require different Node.js and npm versions.
